@@ -1,0 +1,151 @@
+    1  ls
+    2  clear
+    3  ls
+    4  ls -la
+    5  cd ..
+    6  ls
+    7  pwd
+    8  cd ..
+    9  pwd
+   10  ls
+   11  cd .
+   12  cd ..
+   13  ls
+   14  pwd
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  ls
+   19  cd usr/
+   20  ls
+   21  cd ssl/
+   22  ls
+   23  cd 
+   24  pwd
+   25  clear
+   26  git --version
+   27  git branch
+   28  ls
+   29  git clone git@github.com:Amand66/Amand66.git
+   30  git clone https://github.com/Amand66/Amand66.git
+   31  cd Amand66
+   32  ld
+   33  ls
+   34  ls -la
+   35  git init
+   36  git config --global user.name "Amand66"
+   37  git config --global user.email "ardandale66@gmail.com"
+   38  git config --list
+   39  clear
+   40  ls
+   41  echo "This is README.md file addition" > README.md
+   42  ls
+   43  git status
+   44  git add .
+   45  git add .
+   46  git status
+   47  git commit -m "This is README.md file addition"
+   48  git status
+   49  git push -u origin main
+   50  git branch
+   51  git push -u origin master
+   52  ls
+   53  cd Dir1/
+   54  ls
+   55  cat index.html 
+   56  touch file1
+   57  git status
+   58  git add -A
+   59  git status
+   60  git commit -m "This is empty file"
+   61  git status
+   62  git push
+   63  pwd
+   64  ls
+   65  cat file1
+   66  echo "This is not empty file now" > file1
+   67  cat file1
+   68  echo "We added some data here" >> file1
+   69  cat file1
+   70  echo "We have added some data here" >> file1
+   71  cat file1
+   72  git ststus
+   73  git status
+   74* git commit -m 
+   75  git status
+   76  git commit -m "This is not empty file"
+   77  git status
+   78  git commit -m "This is not empty file"
+   79* 
+   80  git status
+   81  git add -A
+   82  pwd
+   83  cat file1
+   84  git push -u origin master
+   85  git push
+   86  cd ..
+   87  pwd
+   88  cd Dir1/
+   89  pwd
+   90  ls
+   91  cd file1 /c/Users/Work Station/Amand66
+   92  cp -fr file1 /c/Users/Work Station/Amand66
+   93  cp -fr file1 /c/Users/"Work Station"/Amand66
+   94  ls
+   95  cd ..
+   96  ls
+   97  cat file1
+   98  git status
+   99  git add .
+  100  git status
+  101  git commit -m "This is second commit"
+  102  git push
+  103  git branch
+  104  git branch br_lo-1
+  105  git branch
+  106  git checkout br_lo-1 
+  107  git branch
+  108  git push origin br_lo-1 
+  109  git branch
+  110  git status
+  111  file2
+  112  touch file2
+  113  git status
+  114  git add .
+  115  git status
+  116  git commit -m "This commit for new branch which was created on local machine"
+  117  git push
+  118  git push -u origin master
+  119  git push -u origin br_lo-a
+  120  git push -u origin br_lo-1
+  121  git branch br_lo-2
+  122  git branch
+  123  git checkout -b br_lo-2
+  124  git checkout -b br_lo-3
+  125  git push origin br_lo-2
+  126  git branch
+  127  ls
+  128  git push origin br_lo-3
+  129  git branch
+  130  git fetch
+  131  git branch
+  132  git checkout br_gh-1 
+  133  ls
+  134  git branch
+  135  git branch
+  136  git fetch
+  137  git branch
+  138  git checkout br_gh-1.1
+  139  git branch
+  140  ls
+  141  touch file1.1
+  142  git status
+  143  git add .
+  144  git status
+  145  git commit -m "This is file1.1 for bracnch br_gh-1.1"
+  146  git status
+  147  git push -u origin br_gh-1.1
+  148  history
+  149  git checkout br_gh-1
+  150  git branch
+  151  history > historyfile
